@@ -1,12 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name= "viewport"
-    content="width=device-width, user-scalable=no, install-scale=0, maximum-scale=1.0, minimum-csale=1">
-    <meta http-equiv="X-UA-Compatable" content="ie=idge">
-    <title>Shop</title>
+	<meta charset="UTF-8">
+	<meta name= "viewport"
+		content="width=device-width, user-scalable=no, install-scale=0, maximum-scale=1.0, minimum-csale=1">
+	<meta http-equiv="X-UA-Compatable" content="ie=idge">
+	<title>Shop</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200:500&display=swap);
+		* {
+		    margin: 0;
+		    padding: 0;
+		    bo-sizing: border-box;
+		}
+        body {
+            font-family: 'Monserrat', sans-serif;
+            font-weight: 200;
+            color: var(--tg-theme-text-color);
+            backgroud: var(--tg-theme-bg-color);
+        }
+        #main {
+            widht: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
 
+        img {
+            width: 70px;
+            margin: 30px auto;
+        }
+        p {
+            width: 350;
+            margin: 0 auto;
+        }
+        button {
+            border: 0;
+            border=radius: 5px;
+            margin-top: 50px;
+            height: 60ppx;
+            width: 200px;
+            font-size: 20px;
+            font=weight: 500;
+            cursor: pointer;
+            transition: all 500ms ease;
+            color var(--tg-theme-button-color);
+            background: var(--tg-theme-button-text-color);
+        }
+        button:hover {
+            background: var(--tg-theme-secondary-bg-color);
+        }
+
+	</style>
 </head>
 
 <body>
@@ -16,6 +64,6 @@
         <p>Бла бла бла очки ннада?</p>
         <button id="Buy">Купить</button>
     </div>
-
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
